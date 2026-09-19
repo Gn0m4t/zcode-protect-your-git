@@ -1,0 +1,20 @@
+{
+  "name": "zcode-protect-local",
+  "interface": {
+    "displayName": "ZPUG Local"
+  },
+  "plugins": [
+    {
+      "name": "zcode-protect",
+      "source": {
+        "source": "local",
+        "path": "./plugins/zcode-protect"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Security"
+    }
+  ]
+}

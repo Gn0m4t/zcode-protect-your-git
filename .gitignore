@@ -1,0 +1,7 @@
+/bin/
+/.tmp-test/
+/.zcode-test-data/
+*.tar.gz
+*.tar.gz.enc
+server.local.json
+/var/

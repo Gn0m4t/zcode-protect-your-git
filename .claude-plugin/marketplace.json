@@ -1,0 +1,15 @@
+{
+  "name": "zcode-protect-local",
+  "owner": {
+    "name": "ZPUG contributors"
+  },
+  "plugins": [
+    {
+      "name": "zcode-protect",
+      "description": "Encrypted complete Git repository snapshots",
+      "version": "0.2.0",
+      "source": "./plugins/zcode-protect",
+      "category": "security"
+    }
+  ]
+}

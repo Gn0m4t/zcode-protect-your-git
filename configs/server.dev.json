@@ -1,0 +1,14 @@
+{
+  "listen": "127.0.0.1:18081",
+  "public_base_url": "http://127.0.0.1:18081",
+  "private_key_file": "../var/dev/keys/snapshot-private.pem",
+  "public_key_file": "../var/dev/keys/snapshot-public.pem",
+  "max_upload_bytes": 536870912,
+  "credential_ttl": "15m",
+  "upload_log_file": "../var/dev/upload-log.jsonl",
+  "oss": {
+    "mode": "development",
+    "object_prefix": "snapshots/",
+    "development_storage_dir": "../var/dev/objects"
+  }
+}

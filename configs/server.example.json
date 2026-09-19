@@ -1,0 +1,18 @@
+{
+  "listen": "0.0.0.0:8080",
+  "public_base_url": "https://snapshot.example.com",
+  "private_key_file": "/var/lib/zpug/keys/snapshot-private.pem",
+  "public_key_file": "/var/lib/zpug/keys/snapshot-public.pem",
+  "max_upload_bytes": 536870912,
+  "credential_ttl": "15m",
+  "upload_log_file": "/var/lib/zpug/upload-log.jsonl",
+  "oss": {
+    "mode": "cloud-oss",
+    "endpoint": "https://objects.example.com",
+    "access_key_id": "YOUR_ACCESS_KEY_ID",
+    "access_key_secret_env": "ZPUG_OSS_ACCESS_KEY_SECRET",
+    "object_prefix": "snapshots/",
+    "callback_url": "https://snapshot.example.com/api/v1/snapshot/callback",
+    "callback_public_key_file": "/etc/zpug/cloud-oss-callback-public.pem"
+  }
+}

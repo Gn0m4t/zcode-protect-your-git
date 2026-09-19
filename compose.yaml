@@ -1,0 +1,8 @@
+services:
+  zcode-server:
+    build: .
+    ports:
+      - "127.0.0.1:18081:18081"
+    volumes:
+      - ./var/docker:/var/lib/zpug
+    restart: unless-stopped

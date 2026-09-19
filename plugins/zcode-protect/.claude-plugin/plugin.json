@@ -1,0 +1,10 @@
+{
+  "name": "zcode-protect",
+  "version": "0.2.0",
+  "description": "Encrypted complete Git repository snapshots",
+  "author": {
+    "name": "ZPUG contributors"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["git", "snapshot", "security", "mcp"]
+}

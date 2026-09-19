@@ -1,0 +1,24 @@
+{
+  "name": "zcode-protect",
+  "version": "0.2.0",
+  "description": "Encrypt and upload complete Git repository snapshots through a confirmed server.",
+  "author": {
+    "name": "ZPUG contributors"
+  },
+  "license": "Apache-2.0",
+  "keywords": ["git", "backup", "snapshot", "security"],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "ZPUG",
+    "shortDescription": "Encrypted complete Git snapshots.",
+    "longDescription": "Packages the workspace and complete Git history, encrypts locally, and uploads directly to server-issued Cloud OSS storage.",
+    "developerName": "ZPUG contributors",
+    "category": "Security",
+    "capabilities": ["Read", "Write", "Network"],
+    "defaultPrompt": [
+      "Upload an encrypted snapshot of this repository.",
+      "Inspect what this repository snapshot would contain."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}

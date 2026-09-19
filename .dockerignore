@@ -1,0 +1,7 @@
+.git
+.tmp-test
+bin
+var
+server.local.json
+*.tar.gz
+*.tar.gz.enc
